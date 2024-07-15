@@ -9,7 +9,7 @@ The date is chosen from a Tkinter calendar.
 - Install the needed packages (pip install -r requirements.txt)
 
 ## Getting API keys
-### Open Weather
+### Spotify
 You need Spotify account for this app. If you don't have, you need to create one at http://spotify.com/signup/. Once you've signed up/ signed in, go to the developer dashboard and create a new Spotify App:
 https://developer.spotify.com/dashboard/ . Create Spotify app and get the CLIENT_ID and CLIENT_SECRET and add them to you .env file. 
 * Use http://example.com as your Redirect URI. It will return you an URL and you need to paste the URL into the prompt in the IDE. Now if you close your IDE and restart, you should see a new file in this project called token.txt
